@@ -282,3 +282,30 @@ header .menu a:hover{
  footer .redes-sociales .instagram:hover{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
  }
+
+ /* Media Queries */
+
+@media screen and (max-width: 800px) {
+    header .menu{
+        text-align: center;
+    }
+    
+    .main .trabajos .contenedor-trabajos .trabajo{
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header .contenedor-texto .texto .nombre{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 500px){
+    header .contenedor-texto .texto .profesion{
+        font-size: 18px;
+    }
+    footer .redes-sociales .contenedor{
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+}
